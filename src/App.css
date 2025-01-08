@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+.game{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-inline: 20%;
+  justify-content:space-evenly;
+}
+
+.square{
+  font-size: xx-large;
+  font-weight: bolder;
+  height: 100px;
+  width: 100px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.gameInfo{
+  font-size: large;
+  font-weight: bolder;
+}
