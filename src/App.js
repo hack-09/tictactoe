@@ -52,7 +52,7 @@ function Board({isNext, square, onPlay}){
   }
 
   return (
-    <div className="App">
+    <div>
       <div style={{'font':'35px'}}>{status}</div>
       <div className='board-row'>
         <Square value={square[0]} onSquareClick={() => handleClick(0)} />
@@ -104,11 +104,13 @@ function App(){
   });
 
   return (
-    <div className='game'>
+    <div className="App">
       <div>
         <Board isNext={isNext} square={currentSquare} onPlay={handlePlay} />
       </div>
-      <div className='gameInfo'>
+
+      <div className="gameInfo">
+        <h2>Game History</h2>
         <ol>{moves}</ol>
       </div>
     </div>

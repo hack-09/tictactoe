@@ -1,28 +1,128 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
 .App {
   text-align: center;
-  padding: 50px;
-}
-
-.game{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-inline: 20%;
-  justify-content:space-evenly;
+  margin-top: 20px;
 }
 
-.square{
-  font-size: xx-large;
-  font-weight: bolder;
-  height: 100px;
-  width: 100px;
-}
-
+/* Board and Square Styles */
 .board-row {
   display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
-.gameInfo{
-  font-size: large;
-  font-weight: bolder;
+h2{
+  margin-top: -20px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #888;
+  margin: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.square:hover {
+  background-color: #e0f7fa;
+  transform: scale(1.05);
+}
+
+.square:active {
+  background-color: #b2ebf2;
+  transform: scale(1);
+}
+
+/* Winner or Status Section */
+.status {
+  font-size: 1.5rem;
+  margin: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.winner {
+  color: #2e7d32;
+  text-transform: uppercase;
+}
+
+.next-player {
+  color: #0277bd;
+}
+
+/* Game Info (Moves List) */
+.gameInfo {
+  margin-inline: 30px;
+}
+
+.gameInfo ol {
+  list-style: none;
+  padding: 0;
+}
+
+.gameInfo li {
+  margin: 5px 0;
+}
+
+.gameInfo button {
+  background-color: #0277bd;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.gameInfo button:hover {
+  background-color: #01579b;
+}
+
+.gameInfo button:active {
+  background-color: #013f7f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+
+  .status {
+    font-size: 1.2rem;
+  }
+
+  .gameInfo button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
 }
