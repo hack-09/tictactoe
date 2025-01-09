@@ -89,7 +89,7 @@ Ensure you have the following installed:
 ## Screenshots
 
 ### Desktop View:
-![Desktop Screenshot]([https://github.com/user-attachments/assets/88279f99-c471-4fc9-bbe7-2d300ed50260])
+![Desktop Screenshot](https://github.com/user-attachments/assets/88279f99-c471-4fc9-bbe7-2d300ed50260)
 
 ### Mobile View:
 ![Mobile Screenshot](https://github.com/user-attachments/assets/982f69a5-4e4d-45eb-8b59-f57d12e1ed4d)
