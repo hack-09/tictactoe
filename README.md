@@ -14,9 +14,7 @@ A **React-based Tic-Tac-Toe** game with a user-friendly interface and gameplay h
 
 ## Demo
 
-![image](https://github.com/user-attachments/assets/88279f99-c471-4fc9-bbe7-2d300ed50260)
-
-![Game Screenshot](link-to-screenshot-or-gif)
+![Game Screenshot](https://github.com/user-attachments/assets/88279f99-c471-4fc9-bbe7-2d300ed50260)
 
 Try the game live: [Live Demo](#)
 
@@ -34,8 +32,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hack-09/tictaktoe.git
-   cd tic-tac-toe
+   git clone https://github.com/hack-09/tictactoe.git
+   cd tictaktoe
    ```
 
 2. Install dependencies:
@@ -60,8 +58,6 @@ Ensure you have the following installed:
 ```
 |-- src/
     |-- App.js         # Main component combining the board and history
-    |-- Board.js       # Board component with game logic
-    |-- Square.js      # Square component for individual cells
     |-- App.css        # Styling for the application
 |-- public/            # Public assets
 |-- package.json       # Project dependencies and scripts
@@ -93,10 +89,10 @@ Ensure you have the following installed:
 ## Screenshots
 
 ### Desktop View:
-![Desktop Screenshot](link-to-desktop-screenshot)
+![Desktop Screenshot]([https://github.com/user-attachments/assets/88279f99-c471-4fc9-bbe7-2d300ed50260])
 
 ### Mobile View:
-![Mobile Screenshot](link-to-mobile-screenshot)
+![Mobile Screenshot](https://github.com/user-attachments/assets/982f69a5-4e4d-45eb-8b59-f57d12e1ed4d)
 
 ---
 
@@ -109,7 +105,7 @@ Contributions are welcome! Feel free to:
 
 1. Fork the repository:
    ```bash
-   git fork https://github.com/your-username/tic-tac-toe.git
+   git fork https://github.com/hack-09/tictactoe.git
    ```
 2. Create a new branch:
    ```bash
@@ -137,8 +133,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: priyanshukumar9780@gmail.com
+- **GitHub**: [hack-09](https://github.com/hack-09)
 
 ---
 
