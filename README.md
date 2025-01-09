@@ -14,6 +14,8 @@ A **React-based Tic-Tac-Toe** game with a user-friendly interface and gameplay h
 
 ## Demo
 
+![image](https://github.com/user-attachments/assets/88279f99-c471-4fc9-bbe7-2d300ed50260)
+
 ![Game Screenshot](link-to-screenshot-or-gif)
 
 Try the game live: [Live Demo](#)
